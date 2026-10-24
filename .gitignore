@@ -1,0 +1,15 @@
+# Local configuration and generated content
+.env
+*.local.php
+ressources/img/book/*
+!ressources/img/book/.gitkeep
+ressources/img/student/*
+!ressources/img/student/.gitkeep
+ressources/exports/
+*.log
+*.sql.bak
+.DS_Store
+Thumbs.db
+
+# Temporary local preparation environment
+.preparation/

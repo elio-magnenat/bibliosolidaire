@@ -1,0 +1,13 @@
+Copyright metadata extracted from redistributed fonts (unmodified)
+
+Font Awesome Free font files:
+fa-brands-400.ttf, fa-regular-400.ttf, fa-solid-900.ttf
+Copyright (c) Font Awesome
+
+Roboto-Italic.ttf, Roboto-Medium.ttf, Roboto-MediumItalic.ttf,
+Roboto-Regular.ttf (embedded in ressources/style/vendor/datatables/vfs_fonts.js):
+Copyright 2011 Google Inc. All Rights Reserved.
+Licensed under the Apache License, Version 2.0
+http://www.apache.org/licenses/LICENSE-2.0
+
+These notices do not license BiblioSolidaire's original code.

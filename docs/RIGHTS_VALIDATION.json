@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-24",
+  "public_file_count": 112,
+  "local_markdown_targets_resolved": 73,
+  "static_template_asset_references_resolved": 32,
+  "screenshots": [
+    {
+      "file": "docs/screenshots/book-form.jpg",
+      "pixels": [
+        1265,
+        1204
+      ],
+      "exif_fields": 0
+    },
+    {
+      "file": "docs/screenshots/book-history.jpg",
+      "pixels": [
+        1265,
+        1106
+      ],
+      "exif_fields": 0
+    },
+    {
+      "file": "docs/screenshots/catalogue.jpg",
+      "pixels": [
+        1265,
+        1106
+      ],
+      "exif_fields": 0
+    },
+    {
+      "file": "docs/screenshots/students.jpg",
+      "pixels": [
+        1265,
+        842
+      ],
+      "exif_fields": 0
+    }
+  ],
+  "business_files_and_prior_validation_unchanged": true,
+  "changed_baseline_files": [
+    "README.md",
+    "THIRD_PARTY.md",
+    "docs/PUBLICATION_FILES.txt",
+    "docs/PUBLICATION_REVIEW.md",
+    "view/footer.html",
+    "docs/screenshots/book-form.jpg",
+    "docs/screenshots/book-history.jpg",
+    "docs/screenshots/catalogue.jpg",
+    "docs/screenshots/README.md",
+    "docs/screenshots/students.jpg",
+    "ressources/style/css/custom.css",
+    "ressources/style/img/add.png",
+    "ressources/style/img/borrow.png",
+    "ressources/style/img/defaultBook.png",
+    "ressources/style/img/defaultStudent.png",
+    "ressources/style/img/logo.png",
+    "ressources/style/img/print.png",
+    "ressources/style/img/restore.png"
+  ],
+  "public_executable_archive_log_files": 0,
+  "recognizable_secret_pattern_hits": [],
+  "scope_note": "Pattern scans do not establish absence of every possible confidential statement. Copyright names are preserved. Full phase-2 workflows were not rerun.",
+  "isolated_smoke": {
+    "pages": [
+      {
+        "path": "/",
+        "status": 200
+      },
+      {
+        "path": "/?controller=student&action=listStudent",
+        "status": 200
+      },
+      {
+        "path": "/?controller=book&action=editFormBook&id=1",
+        "status": 200
+      },
+      {
+        "path": "/?controller=book&action=detailBook&id=1",
+        "status": 200
+      },
+      {
+        "path": "/?controller=book&action=detailBook&id=2",
+        "status": 200
+      },
+      {
+        "path": "/?controller=student&action=detailStudent&id=1",
+        "status": 200
+      }
+    ],
+    "distinct_rendered_asset_urls": 32,
+    "seven_png_http_requests": 200,
+    "php_or_http_errors": [],
+    "browser_warn_error_entries": 0
+  },
+  "remaining_publication_gate": "See PDFMAKE_PROVENANCE.md and PUBLICATION_REVIEW.md.",
+  "gitignore_cases": [
+    {
+      "path": ".env",
+      "ignored": true
+    },
+    {
+      "path": "settings.local.php",
+      "ignored": true
+    },
+    {
+      "path": ".preparation/runtime/php.exe",
+      "ignored": true
+    },
+    {
+      "path": "ressources/img/book/demo.jpg",
+      "ignored": true
+    },
+    {
+      "path": "ressources/img/student/demo.jpg",
+      "ignored": true
+    },
+    {
+      "path": "runtime.log",
+      "ignored": true
+    },
+    {
+      "path": "database/schema.sql",
+      "ignored": false
+    },
+    {
+      "path": "ressources/img/book/.gitkeep",
+      "ignored": false
+    },
+    {
+      "path": "ressources/img/student/.gitkeep",
+      "ignored": false
+    },
+    {
+      "path": "docs/screenshots/catalogue.jpg",
+      "ignored": false
+    },
+    {
+      "path": "tools/render_ui_assets.py",
+      "ignored": false
+    }
+  ]
+}
